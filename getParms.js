@@ -6,9 +6,9 @@ Object.defineProperty(exports, "__esModule", {
 
 function decoding(i) {
     try {
-        return decodeURI(i);
+        return decodeURIComponent(i);
     } catch (e) {
-        return i
+        return i;
     };
 }
 
