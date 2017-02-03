@@ -1,0 +1,33 @@
+{
+  "name": "@yzt/get_url_parms",
+  "version": "1.0.0",
+  "description": "获取url参数中的方法",
+  "main": "gitParms.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "uglify": "uglifyjs ./getParms.js -o ./getParms.min.js",
+    "transfer": "babel ./getParms.js -o ./getParms.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jipings/getParms.git"
+  },
+  "keywords": [
+    "geturlparms"
+  ],
+  "author": "liujiping/jipings@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jipings/getParms/issues"
+  },
+  "homepage": "https://github.com/jipings/getParms#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.0",
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "postcss-cli": "^2.6.0",
+    "uglify-js": "^2.7.5"
+  }
+}
