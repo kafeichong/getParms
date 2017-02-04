@@ -1,6 +1,6 @@
 {
   "name": "@yzt/get_url_parms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "获取url参数中的方法",
   "main": "gitParms.min.js",
   "scripts": {
