@@ -34,7 +34,7 @@ function getQueryString(name, url) {
      if(r!=null)return  decoding(r[2]); return null;
 };
 
-moudule.exports = {
-    getQueryObj: getQueryObj,
-    getQueryString: getQueryString
-};
+    module.exports = {
+        getQueryObj: getQueryObj,
+        getQueryString: getQueryString
+    };
