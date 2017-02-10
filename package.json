@@ -1,8 +1,8 @@
 {
-  "name": "@yzt/get_url_parms",
+  "name": "@yzt/get_url_params",
   "version": "1.0.1",
   "description": "获取url参数中的方法",
-  "main": "gitParms.min.js",
+  "main": "getParms.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "uglify": "uglifyjs ./getParms.js -o ./getParms.min.js",
