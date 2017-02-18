@@ -1,6 +1,6 @@
 {
   "name": "@yzt/get_url_param",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "获取url参数中的方法",
   "main": "getParms.min.js",
   "scripts": {
